@@ -19,14 +19,14 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-
+		<h1>Index</h1>
 		<?php
 		if ( have_posts() ) {
 
 			// Load posts loop.
 			while ( have_posts() ) {
 				the_post();
-				get_template_part( 'template-parts/content/content' );
+				get_template_part( 'template-parts/content/content', "shelter" );
 			}
 
 			// Previous/next page navigation.

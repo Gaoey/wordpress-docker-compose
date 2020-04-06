@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part for displaying posts
  *
@@ -12,20 +13,30 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php if ( ! twentynineteen_can_show_post_thumbnail() ) : ?>
+
+	<h1>Content Shelter</h1>
 	<header class="entry-header">
-		<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
-	</header>
-	<?php endif; ?>
+		<?php
+		if (is_sticky() && is_home() && !is_paged()) {
+			printf('<span class="sticky-post">%s</span>', _x('Featured', 'post', 'twentynineteen'));
+		}
+		if (is_singular()) :
+			the_title('<h1 class="entry-title">', '</h1>');
+		else :
+			the_title(sprintf('<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h2>');
+		endif;
+		?>
+	</header><!-- .entry-header -->
+
+	<?php twentynineteen_post_thumbnail(); ?>
 
 	<div class="entry-content">
-	<h1>Content Single</h1>
 		<?php
 		the_content(
 			sprintf(
 				wp_kses(
 					/* translators: %s: Post title. Only visible to screen readers. */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentynineteen' ),
+					__('Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentynineteen'),
 					array(
 						'span' => array(
 							'class' => array(),
@@ -38,7 +49,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'twentynineteen' ),
+				'before' => '<div class="page-links">' . __('Pages:', 'twentynineteen'),
 				'after'  => '</div>',
 			)
 		);
@@ -48,9 +59,4 @@
 	<footer class="entry-footer">
 		<?php twentynineteen_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
-
-	<?php if ( ! is_singular( 'attachment' ) ) : ?>
-		<?php get_template_part( 'template-parts/post/author', 'bio' ); ?>
-	<?php endif; ?>
-
 </article><!-- #post-<?php the_ID(); ?> -->

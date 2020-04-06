@@ -9,6 +9,78 @@
  * @since Twenty Nineteen 1.0
  */
 
+
+// GATON Hook
+function echo_log($data)
+{
+	if (isJson($data)) {
+		$output = "<pre>" . print_r($data, true) . "</pre>";
+	} else if (is_array($data)) {
+		$output = "<script>console.log( 'Debug Objects: " . implode(',', $data) . "' );</script>";
+	} else {
+		$output = "<script>console.log( 'Debug Objects: " . $data . "' );</script>";
+	}
+
+	echo $output;
+}
+
+function isJson($string)
+{
+	json_decode($string);
+	return (json_last_error() == JSON_ERROR_NONE);
+}
+
+function custom_post_type()
+{
+	register_post_type('shelter', ['public' => true, 'label' => 'Shelter']);
+	register_post_type('pet', ['public' => true, 'label' => 'Pet']);
+}
+
+add_action('after_setup_theme', 'custom_post_type');
+
+function update_shelter_data_from_external_api()
+{
+	$request = wp_remote_get('https://jsonplaceholder.typicode.com/posts');
+	if (is_wp_error($request)) {
+		return false;
+	}
+	$body = wp_remote_retrieve_body($request);
+	$data = json_decode($body);
+
+	if (!empty($data)) {
+		$existing_posts = get_posts(array('post_type' => 'shelter', 'numberposts' => -1));
+
+		$api_ids = array();
+		foreach ($existing_posts as $post) {
+			$id = get_post_meta($post->ID, 'api_id', true);
+			array_push($api_ids, $id);
+		}
+
+		foreach ($data as $item) {
+			if (in_array($item->id, $api_ids)) {
+				error_log('post allready exists');
+			} else {
+				// New post data object to set as a post
+				$new_post = array(
+					'post_type'     => 'shelter',
+					'post_title'    => $item->title,
+					'post_status'   => 'publish',
+					'post_author'   => 1,
+					'post_content'  => $item->body,
+					'meta_input' => array(
+						'api_id' => $item->id,
+					)
+				);
+
+				echo_log($new_post);
+				// Insert the post into the database
+				wp_insert_post($new_post);
+			}
+		}
+	}
+}
+
+add_action('after_setup_theme', 'update_shelter_data_from_external_api');
 /**
  * Twenty Nineteen only works in WordPress 4.7 or later.
  */

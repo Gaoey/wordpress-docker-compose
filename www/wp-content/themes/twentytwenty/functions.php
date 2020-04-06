@@ -53,7 +53,7 @@ function custom_post_type()
 
 add_action('after_setup_theme', 'custom_post_type');
 
-function update_data_from_external_api()
+function update_shelter_data_from_external_api()
 {
 	$request = wp_remote_get('https://jsonplaceholder.typicode.com/posts');
 	if (is_wp_error($request)) {
@@ -95,7 +95,7 @@ function update_data_from_external_api()
 	}
 }
 
-add_action('after_setup_theme', 'update_data_from_external_api');
+add_action('after_setup_theme', 'update_shelter_data_from_external_api');
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.
