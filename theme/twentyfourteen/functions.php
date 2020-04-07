@@ -30,16 +30,14 @@
 // GATON Hook
 function echo_log($data)
 {
-	if (isJson($data)) {
-		$output = "<pre>" . print_r($data, true) . "</pre>";
-	} else if (is_array($data)) {
-		$output = "<script>console.log( 'Debug Objects: " . implode(',', $data) . "' );</script>";
-	} else {
-		$output = "<script>console.log( 'Debug Objects: " . $data . "' );</script>";
-	}
-
-	echo $output;
+	echo  "<pre>" . print_r($data, true) . "</pre>";
 }
+
+function console_log($data)
+{
+	echo  "<script>console.log(\"" . $data . "\")</script>";
+}
+
 
 function isJson($string)
 {
@@ -106,14 +104,14 @@ function update_shelter_data_from_external_api()
 			$api_ids[$id] = $lastest_update;
 		}
 
-	
 		foreach ($data->data as $item) {
 			$op = json_encode($item->openingHours, true);
 			$isUpdateTime = $item->updateDate != $api_ids[$item->id];
 			$hasThisPost = array_key_exists($item->id, $api_ids);
 			if ($hasThisPost && !$isUpdateTime) {
-				error_log('post allready exists');
+				console_log('post allready exists');
 			} else if ($hasThisPost && $isUpdateTime) {
+				console_log($item->id . ' updated');
 				$update_post = array(
 					'ID' => $item->id,
 					'post_type'     => 'shelter',
@@ -141,12 +139,13 @@ function update_shelter_data_from_external_api()
 				wp_update_post($update_post, true);
 			} else {
 				// New post data object to set as a post
+				console_log('new post ' . $item->id);
 				$new_post = array(
 					'post_type'     => 'shelter',
 					'post_title'    => $item->shelterName,
 					'post_status'   => 'publish',
 					'post_author'   => 1,
-					'post_content'  => "",
+					'post_content'  => $item->address,
 					'meta_input' => array(
 						'api_id' => $item->id,
 						'contact_name' => $item->contactName,
