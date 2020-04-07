@@ -106,7 +106,9 @@ function update_shelter_data_from_external_api()
 			$api_ids[$id] = $lastest_update;
 		}
 
+	
 		foreach ($data->data as $item) {
+			$op = json_encode($item->openingHours, true);
 			$isUpdateTime = $item->updateDate != $api_ids[$item->id];
 			$hasThisPost = array_key_exists($item->id, $api_ids);
 			if ($hasThisPost && !$isUpdateTime) {
@@ -122,7 +124,9 @@ function update_shelter_data_from_external_api()
 					'meta_input' => array(
 						'api_id' => $item->id,
 						'contact_name' => $item->contactName,
-						"shelter_name" => $item->shelterName,
+						'contact_surname' => $item->contactSurname,
+						'opening_hours' => (string) $op,
+						'shelter_name' => $item->shelterName,
 						"contact_number" => $item->contactNumber,
 						"address" => $item->address,
 						"website" => $item->website,
@@ -148,6 +152,8 @@ function update_shelter_data_from_external_api()
 						'contact_name' => $item->contactName,
 						"shelter_name" => $item->shelterName,
 						"contact_number" => $item->contactNumber,
+						'contact_surname' => $item->contactSurname,
+						'opening_hours' => (string) $op,
 						"address" => $item->address,
 						"website" => $item->website,
 						'photo_url' => $item->photoUrl,
