@@ -9,6 +9,7 @@ services:
     restart: always
     volumes:
       - ./www/:/var/www/html/
+      - ./theme/twentyfourteen/:/var/www/html/wp-content/themes/twentyfourteen # Theme development
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_PASSWORD: p4ssw0rd!
