@@ -109,9 +109,9 @@ function update_shelter_data_from_external_api()
 			$isUpdateTime = $item->updateDate != $api_ids[$item->id];
 			$hasThisPost = array_key_exists($item->id, $api_ids);
 			if ($hasThisPost && !$isUpdateTime) {
-				console_log('post allready exists');
+				// console_log('post allready exists');
 			} else if ($hasThisPost && $isUpdateTime) {
-				console_log($item->id . ' updated');
+				// console_log($item->id . ' updated');
 				$update_post = array(
 					'ID' => $item->id,
 					'post_type'     => 'shelter',
@@ -139,7 +139,7 @@ function update_shelter_data_from_external_api()
 				wp_update_post($update_post, true);
 			} else {
 				// New post data object to set as a post
-				console_log('new post ' . $item->id);
+				// console_log('new post ' . $item->id);
 				$new_post = array(
 					'post_type'     => 'shelter',
 					'post_title'    => $item->shelterName,

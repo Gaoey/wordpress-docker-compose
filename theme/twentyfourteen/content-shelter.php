@@ -28,7 +28,7 @@
 		endif;
 		?>
 
-		<img src="<?php echo get_post_meta(get_the_ID(), "photo_url", true);	?>" />
+		<!-- <img src="<?php echo get_post_meta(get_the_ID(), "photo_url", true);	?>" /> -->
 		<div class="entry-meta">
 			<?php
 			if ('post' == get_post_type()) {

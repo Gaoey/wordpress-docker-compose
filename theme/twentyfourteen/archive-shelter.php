@@ -45,16 +45,17 @@ get_header(); ?>
 
     <?php
       // Start the Loop.
-      while (have_posts()) :
-        the_post();
-        /*
-					 * Include the post format-specific template for the content. If you want
-					 * to use this in a child theme, then include a file called content-___.php
-					 * (where ___ is the post format) and that will be used instead.
-					 */
-        get_template_part('content', 'shelter');
+      echo do_shortcode('[ajax_load_more id="5032124631" container_type="div" post_type="shelter" posts_per_page="2" button_label="Load More"]');
+      // while (have_posts()) :
+      //   the_post();
+      //   /*
+      // 		 * Include the post format-specific template for the content. If you want
+      // 		 * to use this in a child theme, then include a file called content-___.php
+      // 		 * (where ___ is the post format) and that will be used instead.
+      // 		 */
+      //   get_template_part('content', 'shelter');
 
-      endwhile;
+      // endwhile;
       // Previous/next page navigation.
       twentyfourteen_paging_nav();
 
