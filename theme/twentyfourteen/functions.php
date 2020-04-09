@@ -45,7 +45,7 @@ function isJson($string)
 	return (json_last_error() == JSON_ERROR_NONE);
 }
 
-function custom_post_type()
+function custom_shelter_post_type()
 {
 	$shelterLabels = array(
 		'name' => 'Shelter',
@@ -69,21 +69,45 @@ function custom_post_type()
 		'rewrite' => true,
 		'capability_type' => 'post',
 		'hierarchical' => false,
-		'supports' => array(
-			'title',
-			'editor',
-			'excerpt',
-			'thumbnail',
-			'revisions',
-		),
 		'taxonomies' => array('category', 'post_tag'),
 		'menu_position' => 5,
 		'exclude_from_search' => false
 	);
 	register_post_type('shelter', $shelterArgs);
-	register_post_type('pet', ['public' => true, 'label' => 'Pet']);
 }
-add_action('after_setup_theme', 'custom_post_type');
+add_action('after_setup_theme', 'custom_shelter_post_type');
+
+function custom_pet_post_type()
+{
+	$petLabels = array(
+		'name' => 'Pets',
+		'singular_name' => 'Pet',
+		'add_new' => 'Add Pet',
+		'all_items' => 'All Pets',
+		'add_new_item' => 'Add Pet',
+		'edit_item' => 'Edit Pet Information',
+		'new_item' => 'New Pet',
+		'view_item' => 'View Pet',
+		'search_item' => 'Search Pet',
+		'not_found' => 'No Pet found',
+		'not_found_in_trash' => 'No Pet found in trash',
+	);
+	$petArg = array(
+		'labels' => $petLabels,
+		'public' => true,
+		'has_archive' => true,
+		'publicly_queryable' => true,
+		'query_var' => true,
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'taxonomies' => array('category', 'post_tag'),
+		'menu_position' => 5,
+		'exclude_from_search' => false
+	);
+	register_post_type('pet', $petArg);
+}
+add_action('after_setup_theme', 'custom_pet_post_type');
 
 function update_shelter_data_from_external_api()
 {
@@ -118,7 +142,7 @@ function update_shelter_data_from_external_api()
 					'post_title'    => $item->shelterName,
 					'post_status'   => 'publish',
 					'post_author'   => 1,
-					'post_content'  => "",
+					'post_content'  => $item->address,
 					'meta_input' => array(
 						'api_id' => $item->id,
 						'contact_name' => $item->contactName,
@@ -169,6 +193,105 @@ function update_shelter_data_from_external_api()
 	}
 }
 add_action('after_setup_theme', 'update_shelter_data_from_external_api');
+
+
+function update_pet_data_from_external_api()
+{
+	$request = wp_remote_get('http://167.71.210.107:1323/api/v1/pets');
+	if (is_wp_error($request)) {
+		return false;
+	}
+	$body = wp_remote_retrieve_body($request);
+	$data = json_decode($body);
+
+	if (!empty($data)) {
+		$existing_posts = get_posts(array('post_type' => 'pet', 'numberposts' => -1));
+
+		$pet_ids = array();
+		foreach ($existing_posts as $post) {
+			$id = get_post_meta($post->ID, 'pet_id', true);
+			$lastest_update = get_post_meta($post->ID, 'update_date', true);
+			$pet_ids[$id] = $lastest_update;
+		}
+
+		foreach ($data->data as $item) {
+			echo_log($pet_ids);
+			$condition = json_encode($item->condition, true);
+			$isUpdateTime = $item->updateDate != $pet_ids[$item->id];
+			$hasThisPost = array_key_exists($item->id, $pet_ids);
+			console_log("hasThisPoist".	$hasThisPost);
+			if ($hasThisPost && !$isUpdateTime) {
+				console_log('post allready exists');
+			} else if ($hasThisPost && $isUpdateTime) {
+				console_log($item->id . ' updated');
+				$update_post = array(
+					'ID' => $item->id,
+					'post_type'     => 'pet',
+					'post_title'    => $item->name,
+					'post_status'   => 'publish',
+					'post_author'   => 1,
+					'post_content'  => $item->description,
+					'meta_input' => array(
+						'pet_id' => $item->id,
+						'name' => $item->name,
+						'breed' => $item->breed,
+						'dimension' => $item->dimension,
+						'day_of_birth' => $item->dayOfBirth,
+						'month_of_birth' => $item->monthOfBirth,
+						'year_of_birth' =>  $item->yearOfBirth,
+						'description' => $item->description,
+						'photoImgUrls' => $item->photoImgUrls,
+						'gender' => $item->gender,
+						'conditions' => $condition,
+						'health' => $item->health,
+						'age' => $item->age,
+						'shelter_id' => $item->shelterId,
+						"update_date" => $item->updateDate
+					)
+				);
+				// Update the post into the database
+				wp_update_post($update_post, true);
+			} else {
+				// New post data object to set as a post
+				console_log('new post ' . $item->id);
+				$new_post = array(
+					'ID' => $item->id,
+					'post_type'     => 'pet',
+					'post_title'    => $item->name,
+					'post_status'   => 'publish',
+					'post_author'   => 1,
+					'post_content'  => $item->description,
+					'meta_input' => array(
+						'pet_id' => $item->id,
+						'name' => $item->name,
+						'breed' => $item->breed,
+						'dimension' => $item->dimension,
+						'day_of_birth' => $item->dayOfBirth,
+						'month_of_birth' => $item->monthOfBirth,
+						'year_of_birth' =>  $item->yearOfBirth,
+						'description' => $item->description,
+						'photoImgUrls' => $item->photoImgUrls,
+						'gender' => $item->gender,
+						'conditions' => $condition,
+						'health' => $item->health,
+						'age' => $item->age,
+						'shelter_id' => $item->shelterId,
+						"update_date" => $item->updateDate
+					)
+				);
+				// Insert the post into the database
+				wp_insert_post($new_post);
+			}
+		}
+	}
+}
+add_action('after_setup_theme', 'update_pet_data_from_external_api');
+
+function add_style()
+{
+	wp_enqueue_style('twentyfourteen-gaton-style', get_template_directory_uri() . '/css/gaton.css', array(), '20200402');
+}
+add_action('wp_enqueue_scripts', 'add_style');
 
 /**
  * Set up the content width value based on the theme's design.

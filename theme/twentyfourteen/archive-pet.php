@@ -34,7 +34,7 @@ get_header(); ?>
     <?php
       // Start the Loop.
       $term = sanitize_text_field($_GET['term']);
-      echo do_shortcode('[ajax_load_more id="5032124631" search="' . $term . '" container_type="div" post_type="shelter" posts_per_page="2" button_label="Load More"]');
+      echo do_shortcode('[ajax_load_more id="5032124631" search="' . $term . '" container_type="div" post_type="pet" posts_per_page="2" button_label="Load More"]');
       // while (have_posts()) :
       //   the_post();
       //   /*
