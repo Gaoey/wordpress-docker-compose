@@ -1,0 +1,172 @@
+#wpcontent {
+    padding: 0;
+}
+
+.notice {
+    display: none;
+}
+
+.catmandu-menu-page-wrapper {
+    margin: 0;
+}
+
+.catmandu-page-header {
+    background-color: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 900px;
+}
+
+.catmandu-center {
+    text-align: center;
+}
+
+.catmandu-theme-logo {
+    align-content: flex-start;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.catmandu-theme-version {
+    display: inline-block;
+    background: #efefef;
+    padding: 5px 20px;
+    margin-left: 10px;
+}
+
+.catmandu-page-content p {
+    font-size: 14px;
+}
+
+.catmandu-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.catmandu-column {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex: 1;
+    align-items: center;
+}
+
+.catmandu-theme-text-center {
+    text-align: center;
+}
+
+.catmandu-page-content .catmandu-theme-border-palete-w-padding {
+    background: #fff;
+    padding: 20px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.catmandu-page-content .catmandu-theme-border-palete-without-padding {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.catmandu-page-content .catmandu-theme-options-container {
+    display: flex;
+}
+
+.catmandu-page-content .catmandu-theme-options-container .catmandu-theme-wrap-left {
+    width: 69.33%;
+    padding-right: 10px;
+}
+
+.catmandu-page-content .catmandu-theme-options-container .catmandu-theme-wrap-right {
+    width: 29.33%;
+    padding-left: 10px;
+}
+
+.catmandu-page-content .catmandu-theme-options-container .catmandu-theme-heading-box-style h3 {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+
+.catmandu-page-content .catmandu-theme-options-container .catmandu-row .catmandu-column {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+
+.catmandu-page-content .catmandu-theme-options-container .catmandu-row .catmandu-column:nth-child(even) {
+    border-left: 1px solid #ddd;
+}
+
+.catmandu-theme-knowledge-base {
+    padding: 15px;
+}
+
+.catmandu-theme-knowledge-base p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.catmandu-theme-updates-page {
+    margin-top: 2rem;
+}
+
+.catmandu-theme-updates-page .catmandu-theme-updates-description {
+    margin: 30px 0;
+}
+
+.catmandu-theme-updates-page #catmandu-multi-purpose-responsive-theme_license_key {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.catmandu-theme-updates-page input.button-primary,
+.catmandu-theme-updates-page input.button-secondary {
+    padding: 6px 30px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.catmandu-updates-error {
+    width: 100%;
+    margin: 40px auto 0 auto !important;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 860px;
+}
+
+.catmandu-theme-extra-plugins ul {
+    margin: 0;
+}
+
+.catmandu-theme-extra-plugins ul li:first-child {
+    border-top: none;
+}
+
+.catmandu-theme-extra-plugins ul li {
+    border-top: 1px solid #ddd;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.catmandu-theme-extra-plugins ul li .catmandu-theme-extra-plugins-left {
+    width: 100%;
+}
+
+.catmandu-theme-extra-plugins ul li .catmandu-theme-extra-plugins-right {
+    margin: auto;
+}

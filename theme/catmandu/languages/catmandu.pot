@@ -1,0 +1,1641 @@
+# Copyright (C) 2020 Catmandu
+# This file is distributed under the same license as the Catmandu package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Catmandu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:20
+msgid "We sincerely apologize."
+msgstr ""
+
+#: 404.php:21
+msgid "The page you are looking for is no longer here. Maybe it was never here in the first place. Try searching again with the field below !"
+msgstr ""
+
+#: comments.php:38
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/class-catmandu-template-functions.php:222
+msgid "Go Top"
+msgstr ""
+
+#: inc/helpers.php:181, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:61, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:84, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:221, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:244, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:345, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:368, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:494, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:517
+msgid "Post"
+msgstr ""
+
+#: inc/helpers.php:182
+msgid "Page"
+msgstr ""
+
+#: inc/helpers.php:183, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:62, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:222, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:346, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:495
+msgid "Category"
+msgstr ""
+
+#: inc/helpers.php:184
+msgid "Custom"
+msgstr ""
+
+#: inc/helpers.php:189
+msgid "Portfolio"
+msgstr ""
+
+#: inc/helpers.php:191
+msgid "Service"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: inc/core/class-catmandu-admin-meta-fields.php:66
+msgid "Catmandu Page Options"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-meta-fields.php:151, inc/customizer/class-catmandu-customizer-register-panels.php:29
+msgid "Header"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-meta-fields.php:152, inc/customizer/class-catmandu-customizer-register-panels.php:53
+msgid "Footer"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-meta-fields.php:153, inc/core/widgets.php:13, inc/customizer/class-catmandu-customizer-register-sections.php:226
+msgid "Sidebar"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:25
+msgid "Catmandu Theme"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:26
+msgid "Catmandu"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:73
+msgid "Welcome to Catmandu Theme"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:74
+msgid "Catmandu is clean, responsive, modern and feature rich multi-purpose Business WordPress theme. It is suitable for business, portfolio, digital agencies and general corporate website. It is designed with great attention to details, flexibility and performance thus looks stunning on all types of screens and devices. Catmandu comes with creative and well-organized sections and very extensible and secure code. It is designed and developed paying careful attention to detail, to bring you a clean, modern and crisp design with the kinds of useful web elements that help make your website stand out from the crowd."
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:79
+msgid "Customizer Settings"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:81
+msgid "Global Layouts"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:82
+msgid "Menu & Header Layouts"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:85
+msgid "Upload Logo"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:86
+msgid "Header Transparency"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:89
+msgid "Blog Page Styles"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:90
+msgid "Pagination Styles"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:93
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:94
+msgid "Sidebar Settings"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:97, inc/customizer/class-catmandu-customizer-register-sections.php:237
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:98
+msgid "Last Footer Bar"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:102
+msgid "Get Started by Importing Demo Contents"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:105
+msgid "Import existing contents and design to get started with just one click."
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:106
+msgid "Take me to demo import page"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:108
+msgid "Install Once Click Demo Installer before importing."
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:109
+msgid "Install plugin"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:114
+msgid "Extra Plugins"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:118
+msgid "Install recommended plugins"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:119
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:127
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:129
+msgid "Having issues with theme or installation ? Take some time to explore our knowledge base to explore and learn about possiblities."
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:130
+msgid "Visit Knowledge Base"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:134
+msgid "Support"
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:136
+msgid "Did not find what you are looking for on knowledge base ? Ask us directly."
+msgstr ""
+
+#: inc/core/class-catmandu-admin-settings.php:137
+msgid "Visit Support Forum"
+msgstr ""
+
+#. translators: 1: title.
+#: inc/core/class-catmandu-comment-walker.php:14
+msgid "1 comment"
+msgstr ""
+
+#: inc/core/class-catmandu-comment-walker.php:16
+msgctxt "comments title"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/class-catmandu-enqueue-scripts.php:169
+msgid "Loading..."
+msgstr ""
+
+#: inc/core/class-catmandu-enqueue-scripts.php:170, inc/extras/paginations.php:31, inc/extras/paginations.php:31
+msgid "Load More"
+msgstr ""
+
+#: inc/core/class-catmandu-enqueue-scripts.php:171
+msgid "Error loading the posts."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:386, inc/core/class-catmandu-tgm-plugina-activation.php:827, inc/core/class-catmandu-tgm-plugina-activation.php:2533, inc/core/class-catmandu-tgm-plugina-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:387, inc/core/class-catmandu-tgm-plugina-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:388, inc/core/class-catmandu-tgm-plugina-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:934, inc/core/class-catmandu-tgm-plugina-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:1121, inc/core/class-catmandu-tgm-plugina-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/core/class-catmandu-tgm-plugina-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3509, inc/core/class-catmandu-tgm-plugina-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3509, inc/core/class-catmandu-tgm-plugina-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/core/class-catmandu-tgm-plugina-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/core/class-catmandu-theme-options.php:178
+msgid "Get a Quote"
+msgstr ""
+
+#: inc/core/class-catmandu-theme-options.php:179
+msgid "Register"
+msgstr ""
+
+#: inc/core/class-catmandu-theme-options.php:219
+msgid "Read More"
+msgstr ""
+
+#: inc/core/class-catmandu-theme-options.php:235
+msgid "<p> Copyright &#9400; 2020</p>"
+msgstr ""
+
+#: inc/core/class-catmandu-theme-options.php:299
+msgid "ABOUT COMPANY"
+msgstr ""
+
+#: inc/core/class-catmandu-theme-options.php:300
+msgid "We Provided Services Since 1963"
+msgstr ""
+
+#: inc/core/class-catmandu-theme-options.php:319
+msgid "From Blog"
+msgstr ""
+
+#: inc/core/class-catmandu-theme-options.php:320
+msgid "Recent News"
+msgstr ""
+
+#: inc/core/class-catmandu-theme-options.php:343, inc/customizer/class-catmandu-customizer-register-sections.php:163, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:35
+msgid "Projects"
+msgstr ""
+
+#: inc/core/class-catmandu-theme-options.php:344
+msgid "Project Showcase"
+msgstr ""
+
+#: inc/core/class-catmandu-theme-options.php:367
+msgid "We're Hiring"
+msgstr ""
+
+#: inc/core/class-catmandu-theme-setup.php:77
+msgid "Primary"
+msgstr ""
+
+#: inc/core/required-plugins.php:19
+msgid "One Click Demo Importer"
+msgstr ""
+
+#: inc/core/required-plugins.php:24
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: inc/core/required-plugins.php:29
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/core/required-plugins.php:34
+msgid "Mailpoet"
+msgstr ""
+
+#: inc/core/required-plugins.php:39
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/core/theme-hooks.php:215
+msgid "Skip to the content"
+msgstr ""
+
+#: inc/core/widgets.php:15, inc/core/widgets.php:32
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/core/widgets.php:24
+msgid "Footer 1"
+msgstr ""
+
+#: inc/core/widgets.php:25
+msgid "Footer 2"
+msgstr ""
+
+#: inc/core/widgets.php:26
+msgid "Footer 3"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-panels.php:23
+msgid "Global"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-panels.php:35
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-panels.php:41
+msgid "Homepage"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-panels.php:47
+msgid "About Us Template"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:24
+msgid "Container"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:31
+msgid "Loader"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:39
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:47
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:56
+msgid "Buttons"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:67
+msgid "Site Identity"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:77
+msgid "Primary Header & Menus"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:86
+msgid "Top Header"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:95
+msgid "Transparent Header"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:104
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:113
+msgid "Inner Banner Image"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:123
+msgid "Sort sections"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:131, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:31, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:75
+msgid "Slider"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:139, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:32, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:235
+msgid "Features"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:147, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:33, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:359
+msgid "News"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:155, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:34
+msgid "Video"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:171, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:36
+msgid "Newsletter"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:179
+msgid "Call to Action"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:190
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:201
+msgid "Note: This option will effect archive/blog listing page."
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:202
+msgid "Blog/Archive Page"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:209
+msgid "Note: This option will effect only in single posts."
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:210
+msgid "Single Posts"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:217, inc/customizer/sections/class-catmandu-customizer-register-blog.php:85
+msgid "Pagination"
+msgstr ""
+
+#: inc/customizer/class-catmandu-customizer-register-sections.php:245
+msgid "Last Footer Bar & Scroll Up"
+msgstr ""
+
+#: inc/extras/footers.php:116
+msgid "Catmandu by"
+msgstr ""
+
+#: inc/extras/footers.php:116
+msgid " Code Manas"
+msgstr ""
+
+#: inc/extras/headers.php:292
+msgid "404"
+msgstr ""
+
+#: inc/extras/headers.php:294
+msgid "Search results for:"
+msgstr ""
+
+#: inc/extras/headers.php:297
+msgid "Blogs"
+msgstr ""
+
+#: inc/homepage/class-cta-section.php:77
+msgid "Go Now"
+msgstr ""
+
+#: inc/homepage/class-features-section.php:149, inc/homepage/class-news-section.php:172, inc/homepage/class-projects-section.php:150
+msgid "Know More"
+msgstr ""
+
+#: inc/homepage/class-news-section.php:93
+msgid "Explore More"
+msgstr ""
+
+#: inc/homepage/class-slider-section.php:160
+msgid "Learn More"
+msgstr ""
+
+#: inc/homepage/class-slider-section.php:164
+msgid "About Us"
+msgstr ""
+
+#: inc/core/meta-views/footers.php:4
+msgid "Display Footer Widget Area ?"
+msgstr ""
+
+#: inc/core/meta-views/footers.php:7, inc/core/meta-views/footers.php:18, inc/core/meta-views/headers.php:7, inc/core/meta-views/headers.php:18, inc/core/meta-views/sidebar.php:7
+msgid "Set to Global"
+msgstr ""
+
+#: inc/core/meta-views/footers.php:8
+msgid "Enable Footer Widget Area"
+msgstr ""
+
+#: inc/core/meta-views/footers.php:9
+msgid "Disable Footer Widget Area"
+msgstr ""
+
+#: inc/core/meta-views/footers.php:11
+msgid "Overrides default footer widget area from customizer for this specific page."
+msgstr ""
+
+#: inc/core/meta-views/footers.php:15
+msgid "Display Copyright Area ?"
+msgstr ""
+
+#: inc/core/meta-views/footers.php:19
+msgid "Enable Copyright Area"
+msgstr ""
+
+#: inc/core/meta-views/footers.php:20
+msgid "Disable Copyright Area"
+msgstr ""
+
+#: inc/core/meta-views/footers.php:22
+msgid "Overrides default footer copyright area from customizer for this specific page."
+msgstr ""
+
+#: inc/core/meta-views/headers.php:4, inc/customizer/sections/class-catmandu-customizer-register-header.php:27
+msgid "Enable Top Header ?"
+msgstr ""
+
+#: inc/core/meta-views/headers.php:8
+msgid "Enable Top Header"
+msgstr ""
+
+#: inc/core/meta-views/headers.php:9
+msgid "Disable Top Header"
+msgstr ""
+
+#: inc/core/meta-views/headers.php:11
+msgid "Overrides default top header from customizer for this specific page."
+msgstr ""
+
+#: inc/core/meta-views/headers.php:15
+msgid "Transparent Header Enable ?"
+msgstr ""
+
+#: inc/core/meta-views/headers.php:19
+msgid "Enable Transparent Header"
+msgstr ""
+
+#: inc/core/meta-views/headers.php:20
+msgid "Disable Transparent Header"
+msgstr ""
+
+#: inc/core/meta-views/headers.php:22
+msgid "Overrides default transparent header from customizer for this specific page."
+msgstr ""
+
+#: inc/core/meta-views/sidebar.php:4
+msgid "Sidebar Positon ?"
+msgstr ""
+
+#: inc/core/meta-views/sidebar.php:8
+msgid "No sidebar"
+msgstr ""
+
+#: inc/core/meta-views/sidebar.php:9, inc/customizer/sections/class-catmandu-customizer-register-blog.php:108, inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:192, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:151
+msgid "Right"
+msgstr ""
+
+#: inc/core/meta-views/sidebar.php:10, inc/customizer/sections/class-catmandu-customizer-register-blog.php:106, inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:191, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:150
+msgid "Left"
+msgstr ""
+
+#: inc/core/meta-views/sidebar.php:12
+msgid "Overrides default sidebar position from customizer for this specific page. Targets buttons and background color elements on this specific page."
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:26
+msgid "Post Structure"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:30
+msgid "Featured Image"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:31
+msgid "Meta"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:32, inc/customizer/sections/class-catmandu-customizer-register-header.php:49, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:199, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:323, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:472
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:33
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:41
+msgid "Archive columns:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:45
+msgid "1 column"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:46
+msgid "4 columns"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:53
+msgid "Enable Author"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:61
+msgid "Read more text"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:69
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:94
+msgid "Numeric"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:95
+msgid "Legacy Old/New"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:102
+msgid "Pagination Alignment"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:107, inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:193
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-blog.php:118
+msgid "Enable pagination ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:25
+msgid "Position Selection"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:31, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:586
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:32
+msgid "After title"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:33
+msgid "Before title"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:40
+msgid "Seperator"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:56
+msgid "Disable on Homepage"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:72
+msgid "Disable on Blog Listing Page"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:88
+msgid "Disable on Single Page"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:104
+msgid "Disable on Single Post"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:120
+msgid "Disable on all single post/pages"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:122, inc/customizer/sections/class-catmandu-customizer-register-header.php:722
+msgid "This will override single page or post options if enabled."
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:137
+msgid "Disable on Search page"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:153
+msgid "Disable on Archive page"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:169
+msgid "Disable on 404 page"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:185
+msgid "Alignment"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:217
+msgid "Breadcrumb Plugin Required"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-breadcrumb.php:219
+msgid "To enable breadcrumbs you need to install and activate breadcrumb Navxt Plugin from %s"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-footer.php:25
+msgid "Widget Layout Columns"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-footer.php:37
+msgid "Widget area background Color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-footer.php:59
+msgid "Foote widget heading color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-footer.php:85
+msgid "Enable Bottom Footer Bar"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-footer.php:86
+msgid "This option toggles the footer bar."
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-footer.php:94
+msgid "Copyright content"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-footer.php:95
+msgid "HTML allowed"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-footer.php:120, inc/customizer/sections/class-catmandu-customizer-register-header.php:485
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-footer.php:144
+msgid "Scroll Up"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-footer.php:158
+msgid "Enable scroll up"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-footer.php:159
+msgid "This option toggles the \"Scroll to top\" arrow."
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-footer.php:169
+msgid "Scroll up background color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:29
+msgid "Width"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:30
+msgid "Changing this will change width of content container."
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:60
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:66, inc/customizer/sections/class-catmandu-customizer-register-global.php:80, inc/customizer/sections/class-catmandu-customizer-register-global.php:94, inc/customizer/sections/class-catmandu-customizer-register-global.php:108
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:67, inc/customizer/sections/class-catmandu-customizer-register-global.php:81, inc/customizer/sections/class-catmandu-customizer-register-global.php:95, inc/customizer/sections/class-catmandu-customizer-register-global.php:109
+msgid "Full width"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:74
+msgid "Page Layout"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:88
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:102
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:121
+msgid "Enable loader?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:135
+msgid "Body Font"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:153
+msgid "Body Background Color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:175
+msgid "Button design"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:179, inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:62, inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:86, inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:110
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:180
+msgid "Semi curved"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:181
+msgid "Curved"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:190
+msgid "Button size"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:194
+msgid "Large"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:195
+msgid "Medium"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:196
+msgid "Small"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-global.php:197
+msgid "Extra small"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:35
+msgid "Quick contact:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:42
+msgid "Quick contact "
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:44
+msgid "Add quick contact"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:50
+msgid "This will not be visible in Header 1 layout"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:54
+msgid "Contact"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:58, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:249, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:285
+msgid "Icon"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:59
+msgid "You can choose any of <a href=\"https://fontawesome.com/cheatsheet?from=io\" target=\"_blank\">Fontawesome Icons</a> as a prefix icon for the contact."
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:66
+msgid "Social connects:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:73
+msgid "Social connect "
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:75
+msgid "Add connection"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:80
+msgid "Link"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:98
+msgid "Menu Section"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:105, inc/customizer/sections/class-catmandu-customizer-register-header.php:753
+msgid "Disable Menu"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:113
+msgid "Disable Search"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:122
+msgid "Disable Mini Cart"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:132
+msgid "Last item in menu"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:142
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:166
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:182
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:205
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:229
+msgid "Vertical Padding"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:263
+msgid "Horizontal Padding"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:297
+msgid "Border Width"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:326
+msgid "Button Border Color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:349
+msgid "Custom Text/HTML"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:366
+msgid "Menu Colors"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:371
+msgid "Menu color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:387
+msgid "Hover Menu color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:403
+msgid "Active Menu Color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:422
+msgid "Sub-Menu Colors"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:428
+msgid "Sub-Menu Background color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:446
+msgid "Sub-Menu Text color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:461
+msgid "Sub-Menu Hover Text Color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:478
+msgid "Mobile Menu & Colors"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:515
+msgid "Link Colors"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:530
+msgid "Hamburger Color"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:548
+msgid "Site Logo Width & Site Titles"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:561
+msgid "Display Site Title"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:569
+msgid "Display Site Tagline"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:578
+msgid "Site Title Typography"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:599
+msgid "Site Tagline Typography"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:621
+msgid "Site Favicon"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:631
+msgid "Enable Transparent Header Globally"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:640
+msgid "Disable on Blog/Posts page ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:656
+msgid "Disable on Search page ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:672
+msgid "Disable on Archive page ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:688
+msgid "Disable on Single page ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:704
+msgid "Disable on Single Post ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:720
+msgid "Disable on all single post/pages ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:737
+msgid "Disable on 404 ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:771
+msgid "None"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:772
+msgid "Button"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-header.php:773
+msgid "Text/HTML"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:27
+msgid "Drag and drop the homepage sections"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:37
+msgid "Call To Action"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:47
+msgid "Enable Slider ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:56, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:216, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:340, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:489
+msgid "Content Type:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:68
+msgid "Post slider:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:77
+msgid "Add slider"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:89, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:129
+msgid "Button 1 link"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:93
+msgid "Button 2 link"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:102, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:258, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:377, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:526
+msgid "Select Category:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:110
+msgid "Category slider content:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:115
+msgid "Slider content"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:117
+msgid "Add slider content"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:125
+msgid "Button 1 text"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:140
+msgid "Slider Options"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:146
+msgid "Text alignment:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:159
+msgid "Enable pause on hover ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:173
+msgid "Enable Features ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:182, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:306, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:455, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:603
+msgid "Sub title"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:228
+msgid "Post features:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:237, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:273
+msgid "Add feature"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:250, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:286
+msgid "You can choose any of <a href=\"http://rhythm.nikadevs.com/content/icons-et-line\" target=\"_blank\">ET Icons</a>"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:266
+msgid "Category features content:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:271
+msgid "Features content"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:281
+msgid "Button text"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:297
+msgid "Enable News ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:352
+msgid "Post news:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:361
+msgid "Add news"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:388
+msgid "News Options"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:394
+msgid "Button link"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:406
+msgid "Enable video section ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:415, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:547, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:593
+msgid "Post:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:425
+msgid "Video Link"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:434, inc/customizer/sections/class-catmandu-customizer-register-homepage.php:566
+msgid "Enable overlay on image?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:446
+msgid "Enable Project ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:501
+msgid "Post projects:"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:508
+msgid "Project"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:510
+msgid "Add projects"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:538
+msgid "Enable newsletter section ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:557
+msgid "Newsletter shortcode"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:578
+msgid "Enable \"call to action\" section on ?"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:582
+msgid "Homepage Template"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:583
+msgid "Entire Site"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:584
+msgid "Pages Only"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-homepage.php:585
+msgid "Posts Only"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:24
+msgid "Default Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:31, inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:63, inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:87, inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:111
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:32, inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:64, inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:88, inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:112
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:33, inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:65, inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:89, inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:113
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:55
+msgid "Posts Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:79
+msgid "Pages Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:103
+msgid "Archive or Search Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/class-catmandu-customizer-register-sidebar.php:127
+msgid "Sidebar Heading Color"
+msgstr ""
+
+#: inc/customizer/trt-customize-pro/class-customize.php:75
+msgid "More Options in Catmandu Pro"
+msgstr ""
+
+#: inc/customizer/trt-customize-pro/class-customize.php:76
+msgid "View Pro"
+msgstr ""

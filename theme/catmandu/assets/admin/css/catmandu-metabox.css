@@ -1,0 +1,65 @@
+#catmandu-metabox-tabs {
+  display: -webkit-box; /* OLD: Safari, iOS, Android browser */
+  display: -moz-box; /* OLD: Firefox (buggy) */
+  display: -ms-flexbox; /* MID: IE 10 */
+  display: -webkit-flex; /* NEW, Chrome 21+ */
+  display: flex; /* NEW: Opera 12.1, Firefox 22+ */
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.ui-tabs-vertical .ui-tabs-nav {
+  padding: 0;
+  width: 15%;
+  border-radius: 0;
+  background: none;
+  border: 0;
+}
+.ui-tabs-vertical .ui-tabs-nav li {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  -webkit-border-radius: 0;
+  background: #f6f6f6;
+  font-size: 12px;
+}
+.ui-tabs-vertical .ui-tabs-nav li a {
+  display: block;
+  width: 80%;
+  float: none !important;
+  padding: 14px 20px !important;
+  box-shadow: none;
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+  padding: 0;
+  border-right: 1px solid #007cba;
+  margin: 0;
+  background: #007cba;
+  outline: 0;
+}
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+  color: #fff !important;
+}
+.ui-tabs-vertical .ui-tabs-panel {
+  padding: 0 2em;
+  border-left: 1px solid #e2e4e7 !important;
+}
+
+#catmandu-page-options .inside {
+  margin: 0;
+  padding: 0;
+}
+
+.catmandu-page-settings-box th {
+  width: unset;
+  font-weight: unset;
+  font-size: 13px;
+}
+
+.ui-tabs .ui-tabs-nav {
+  padding: 0 !important;
+}
