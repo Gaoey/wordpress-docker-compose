@@ -10,7 +10,8 @@ services:
     volumes:
       - ./www/:/var/www/html/
       - ./theme/twentyfourteen/:/var/www/html/wp-content/themes/twentyfourteen # Theme development
-      - ./plugin/ajax-load-more/:/var/www/html/wp-content/plugins/ajax-load-more # Theme development
+      - ./theme/twentyfourteen-child/:/var/www/html/wp-content/themes/twentyfourteen-child # Child Theme development
+      #- ./plugin/ajax-load-more/:/var/www/html/wp-content/plugins/ajax-load-more # Theme development
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_PASSWORD: p4ssw0rd!
